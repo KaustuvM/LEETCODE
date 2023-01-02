@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		067217B52962206E00DB5663 /* CourseSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067217B42962206E00DB5663 /* CourseSchedule.swift */; };
+		067217B82962845400DB5663 /* PerformanceAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067217B72962845400DB5663 /* PerformanceAnalysis.swift */; };
 		06F125EE29615564008A86AE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F125ED29615564008A86AE /* main.swift */; };
 		06F125F6296155D1008A86AE /* CloneGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F125F5296155D1008A86AE /* CloneGraph.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		067217B42962206E00DB5663 /* CourseSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSchedule.swift; sourceTree = "<group>"; };
+		067217B72962845400DB5663 /* PerformanceAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceAnalysis.swift; sourceTree = "<group>"; };
 		06F125EA29615564008A86AE /* LEETCODE */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LEETCODE; sourceTree = BUILT_PRODUCTS_DIR; };
 		06F125ED29615564008A86AE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		06F125F5296155D1008A86AE /* CloneGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloneGraph.swift; sourceTree = "<group>"; };
@@ -40,9 +44,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		067217B62962841C00DB5663 /* UTIL */ = {
+			isa = PBXGroup;
+			children = (
+				067217B72962845400DB5663 /* PerformanceAnalysis.swift */,
+			);
+			path = UTIL;
+			sourceTree = "<group>";
+		};
 		06F125E129615564008A86AE = {
 			isa = PBXGroup;
 			children = (
+				067217B62962841C00DB5663 /* UTIL */,
 				06F125F429615576008A86AE /* GRAPH */,
 				06F125EC29615564008A86AE /* LEETCODE */,
 				06F125EB29615564008A86AE /* Products */,
@@ -69,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				06F125F5296155D1008A86AE /* CloneGraph.swift */,
+				067217B42962206E00DB5663 /* CourseSchedule.swift */,
 			);
 			path = GRAPH;
 			sourceTree = "<group>";
@@ -132,6 +146,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				06F125F6296155D1008A86AE /* CloneGraph.swift in Sources */,
+				067217B52962206E00DB5663 /* CourseSchedule.swift in Sources */,
+				067217B82962845400DB5663 /* PerformanceAnalysis.swift in Sources */,
 				06F125EE29615564008A86AE /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

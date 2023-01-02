@@ -8,3 +8,4 @@
 import Foundation
 
 CloneGraph.execute()
+CourseSchedule.execute()
