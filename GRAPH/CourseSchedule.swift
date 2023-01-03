@@ -32,7 +32,7 @@ fileprivate class Solution {
         for req in prerequisites {
             if req[0] >= 0 && req[0] < numCourses
                 && req[1] >= 0 && req[1] < numCourses {
-                // create node 'b' and populate outbound connections information
+                // create node 'b' and update outbound connections information
                 if let node = dGraph[req[1]] {
                     node.outboundConns.insert(req[0])
                     dGraph[req[1]] = node
