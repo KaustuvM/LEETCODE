@@ -147,6 +147,7 @@ fileprivate class Solution {
 
 class AlienDictionary {
     static func execute() {
+        print("\n\n--------------------AlienDictionary--------------------")
         let obj = Solution()
         print(obj.alienOrder(["wnlb"]))
         print(obj.alienOrder(["ac","ab","zc","zb"]))

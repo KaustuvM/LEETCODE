@@ -86,6 +86,7 @@ fileprivate class Solution {
 
 class CourseSchedule {
     static func execute() {
+        print("\n\n--------------------CourseSchedule--------------------")
         let obj = Solution()
         
         TimeTick.start()
