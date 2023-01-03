@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06466C962963D6BC008C3CA5 /* FindTheCelebrity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06466C952963D6BC008C3CA5 /* FindTheCelebrity.swift */; };
 		06536CF32963706300278A8A /* CourseScheduleII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06536CF22963706300278A8A /* CourseScheduleII.swift */; };
 		06536CF529637D2400278A8A /* GraphValidTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06536CF429637D2400278A8A /* GraphValidTree.swift */; };
 		06536CF72963A5C800278A8A /* AlienDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06536CF62963A5C800278A8A /* AlienDictionary.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		06466C952963D6BC008C3CA5 /* FindTheCelebrity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTheCelebrity.swift; sourceTree = "<group>"; };
 		06536CF22963706300278A8A /* CourseScheduleII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseScheduleII.swift; sourceTree = "<group>"; };
 		06536CF429637D2400278A8A /* GraphValidTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphValidTree.swift; sourceTree = "<group>"; };
 		06536CF62963A5C800278A8A /* AlienDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlienDictionary.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				06536CF22963706300278A8A /* CourseScheduleII.swift */,
 				06536CF429637D2400278A8A /* GraphValidTree.swift */,
 				06536CF62963A5C800278A8A /* AlienDictionary.swift */,
+				06466C952963D6BC008C3CA5 /* FindTheCelebrity.swift */,
 			);
 			path = GRAPH;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				067217B52962206E00DB5663 /* CourseSchedule.swift in Sources */,
 				067217B82962845400DB5663 /* PerformanceAnalysis.swift in Sources */,
 				06F125EE29615564008A86AE /* main.swift in Sources */,
+				06466C962963D6BC008C3CA5 /* FindTheCelebrity.swift in Sources */,
 				06536CF72963A5C800278A8A /* AlienDictionary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
