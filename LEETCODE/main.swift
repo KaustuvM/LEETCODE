@@ -7,8 +7,8 @@
 
 import Foundation
 
-//CloneGraph.execute()
-//CourseSchedule.execute()
-//CourseScheduleII.execute()
-//GraphValidTree.execute()
+CloneGraph.execute()
+CourseSchedule.execute()
+CourseScheduleII.execute()
+GraphValidTree.execute()
 AlienDictionary.execute()
