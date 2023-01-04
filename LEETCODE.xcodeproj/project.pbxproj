@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		062E1B482965293600E8FD2A /* MinimumHeightTrees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062E1B472965293600E8FD2A /* MinimumHeightTrees.swift */; };
 		06466C962963D6BC008C3CA5 /* FindTheCelebrity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06466C952963D6BC008C3CA5 /* FindTheCelebrity.swift */; };
 		06536CF32963706300278A8A /* CourseScheduleII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06536CF22963706300278A8A /* CourseScheduleII.swift */; };
 		06536CF529637D2400278A8A /* GraphValidTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06536CF429637D2400278A8A /* GraphValidTree.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		062E1B472965293600E8FD2A /* MinimumHeightTrees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumHeightTrees.swift; sourceTree = "<group>"; };
 		06466C952963D6BC008C3CA5 /* FindTheCelebrity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTheCelebrity.swift; sourceTree = "<group>"; };
 		06536CF22963706300278A8A /* CourseScheduleII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseScheduleII.swift; sourceTree = "<group>"; };
 		06536CF429637D2400278A8A /* GraphValidTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphValidTree.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				06536CF429637D2400278A8A /* GraphValidTree.swift */,
 				06536CF62963A5C800278A8A /* AlienDictionary.swift */,
 				06466C952963D6BC008C3CA5 /* FindTheCelebrity.swift */,
+				062E1B472965293600E8FD2A /* MinimumHeightTrees.swift */,
 			);
 			path = GRAPH;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				067217B82962845400DB5663 /* PerformanceAnalysis.swift in Sources */,
 				06F125EE29615564008A86AE /* main.swift in Sources */,
 				06466C962963D6BC008C3CA5 /* FindTheCelebrity.swift in Sources */,
+				062E1B482965293600E8FD2A /* MinimumHeightTrees.swift in Sources */,
 				06536CF72963A5C800278A8A /* AlienDictionary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
