@@ -88,9 +88,8 @@ class CloneGraph {
         node4.neighbors.append(node3)
         node4.neighbors.append(node1)
         
-        if let rootNode = obj.cloneGraph(node1) {
-            print(rootNode.val)
-        }
-        
+        TimeTick.start()
+        _ = obj.cloneGraph(node1)
+        TimeTick.end()
     }
 }

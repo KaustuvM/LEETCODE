@@ -73,7 +73,9 @@ class GraphValidTree {
     static func execute() {
         print("\n\n--------------------GraphValidTree--------------------")
         let obj = Solution()
-        print(obj.validTree(5, [[0,1],[0,2],[0,3],[1,4]]))
-        print(obj.validTree(5, [[0,1],[1,2],[2,3],[1,3],[1,4]]))
+        TimeTick.start()
+        _ = obj.validTree(5, [[0,1],[0,2],[0,3],[1,4]])
+        _ = obj.validTree(5, [[0,1],[1,2],[2,3],[1,3],[1,4]])
+        TimeTick.end()
     }
 }

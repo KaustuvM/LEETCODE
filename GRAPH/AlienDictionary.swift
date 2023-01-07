@@ -149,10 +149,12 @@ class AlienDictionary {
     static func execute() {
         print("\n\n--------------------AlienDictionary--------------------")
         let obj = Solution()
-        print(obj.alienOrder(["wnlb"]))
-        print(obj.alienOrder(["ac","ab","zc","zb"]))
-        print(obj.alienOrder(["wrt","wrf","er","ett","rftt"]))
-        print(obj.alienOrder(["z","x"]))
-        print(obj.alienOrder(["z","x","z"]))
+        TimeTick.start()
+        _ = obj.alienOrder(["wnlb"])
+        _ = obj.alienOrder(["ac","ab","zc","zb"])
+        _ = obj.alienOrder(["wrt","wrf","er","ett","rftt"])
+        _ = obj.alienOrder(["z","x"])
+        _ = obj.alienOrder(["z","x","z"])
+        TimeTick.end()
     }
 }

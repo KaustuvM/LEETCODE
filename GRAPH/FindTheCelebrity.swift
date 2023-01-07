@@ -44,15 +44,17 @@ class FindTheCelebrity {
     static func execute() {
         print("\n\n--------------------FindTheCelebrity--------------------")
         let obj = Solution()
-        obj.graph = [[1,1],[0,1]]
-        print(obj.findCelebrity(obj.graph.count))
-        obj.graph = [[1,0,0],[1,1,0],[1,0,1]]
-        print(obj.findCelebrity(obj.graph.count))
-        obj.graph = [[1,0],[0,1]]
-        print(obj.findCelebrity(obj.graph.count))
-        obj.graph = [[1,1,0],[0,1,0],[1,1,1]]
-        print(obj.findCelebrity(obj.graph.count))
-        obj.graph = [[1,0,1],[1,1,0],[0,1,1]]
-        print(obj.findCelebrity(obj.graph.count))
+        TimeTick.start()
+        _ = obj.graph = [[1,1],[0,1]]
+        _ = obj.findCelebrity(obj.graph.count)
+        _ = obj.graph = [[1,0,0],[1,1,0],[1,0,1]]
+        _ = obj.findCelebrity(obj.graph.count)
+        _ = obj.graph = [[1,0],[0,1]]
+        _ = obj.findCelebrity(obj.graph.count)
+        _ = obj.graph = [[1,1,0],[0,1,0],[1,1,1]]
+        _ = obj.findCelebrity(obj.graph.count)
+        _ = obj.graph = [[1,0,1],[1,1,0],[0,1,1]]
+        _ = obj.findCelebrity(obj.graph.count)
+        TimeTick.end()
     }
 }
