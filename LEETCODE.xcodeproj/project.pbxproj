@@ -14,6 +14,9 @@
 		06A6604F29693F26007405F0 /* AlienDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A6604E29693F26007405F0 /* AlienDictionary.swift */; };
 		06A66051296940EA007405F0 /* FindTheCelebrity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A66050296940EA007405F0 /* FindTheCelebrity.swift */; };
 		06A6605329694174007405F0 /* MinimumHeightTrees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A6605229694174007405F0 /* MinimumHeightTrees.swift */; };
+		06A660552969EC94007405F0 /* NumberOfConnectedComponentsInAnUndirectedGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A660542969EC94007405F0 /* NumberOfConnectedComponentsInAnUndirectedGraph.swift */; };
+		06A660572969FA6E007405F0 /* LongestIncreasingPathInAMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A660562969FA6E007405F0 /* LongestIncreasingPathInAMatrix.swift */; };
+		06A66059296A4844007405F0 /* ReconstructItinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A66058296A4844007405F0 /* ReconstructItinerary.swift */; };
 		06F125EE29615564008A86AE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F125ED29615564008A86AE /* main.swift */; };
 		06F125F6296155D1008A86AE /* CloneGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F125F5296155D1008A86AE /* CloneGraph.swift */; };
 /* End PBXBuildFile section */
@@ -38,6 +41,9 @@
 		06A6604E29693F26007405F0 /* AlienDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlienDictionary.swift; sourceTree = "<group>"; };
 		06A66050296940EA007405F0 /* FindTheCelebrity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindTheCelebrity.swift; sourceTree = "<group>"; };
 		06A6605229694174007405F0 /* MinimumHeightTrees.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimumHeightTrees.swift; sourceTree = "<group>"; };
+		06A660542969EC94007405F0 /* NumberOfConnectedComponentsInAnUndirectedGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfConnectedComponentsInAnUndirectedGraph.swift; sourceTree = "<group>"; };
+		06A660562969FA6E007405F0 /* LongestIncreasingPathInAMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestIncreasingPathInAMatrix.swift; sourceTree = "<group>"; };
+		06A66058296A4844007405F0 /* ReconstructItinerary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReconstructItinerary.swift; sourceTree = "<group>"; };
 		06F125EA29615564008A86AE /* LEETCODE */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LEETCODE; sourceTree = BUILT_PRODUCTS_DIR; };
 		06F125ED29615564008A86AE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		06F125F5296155D1008A86AE /* CloneGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloneGraph.swift; sourceTree = "<group>"; };
@@ -98,6 +104,9 @@
 				06A6604E29693F26007405F0 /* AlienDictionary.swift */,
 				06A66050296940EA007405F0 /* FindTheCelebrity.swift */,
 				06A6605229694174007405F0 /* MinimumHeightTrees.swift */,
+				06A660542969EC94007405F0 /* NumberOfConnectedComponentsInAnUndirectedGraph.swift */,
+				06A660562969FA6E007405F0 /* LongestIncreasingPathInAMatrix.swift */,
+				06A66058296A4844007405F0 /* ReconstructItinerary.swift */,
 			);
 			path = GRAPH;
 			sourceTree = "<group>";
@@ -161,13 +170,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				06A6604B29693AA7007405F0 /* CourseScheduleII.swift in Sources */,
+				06A660552969EC94007405F0 /* NumberOfConnectedComponentsInAnUndirectedGraph.swift in Sources */,
 				06A6604D29693E57007405F0 /* GraphValidTree.swift in Sources */,
 				06F125F6296155D1008A86AE /* CloneGraph.swift in Sources */,
+				06A66059296A4844007405F0 /* ReconstructItinerary.swift in Sources */,
 				06A6604929693A50007405F0 /* CourseSchedule.swift in Sources */,
 				067217B82962845400DB5663 /* PerformanceAnalysis.swift in Sources */,
 				06F125EE29615564008A86AE /* main.swift in Sources */,
 				06A66051296940EA007405F0 /* FindTheCelebrity.swift in Sources */,
 				06A6605329694174007405F0 /* MinimumHeightTrees.swift in Sources */,
+				06A660572969FA6E007405F0 /* LongestIncreasingPathInAMatrix.swift in Sources */,
 				06A6604F29693F26007405F0 /* AlienDictionary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

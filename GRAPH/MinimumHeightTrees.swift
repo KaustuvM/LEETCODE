@@ -7,7 +7,7 @@
 
 import Foundation
 
-// MARK: LINK - https://leetcode.com/problems/find-the-celebrity/
+// MARK: LINK - https://leetcode.com/problems/minimum-height-trees/
 
 fileprivate class Solution {
     
